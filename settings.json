@@ -67,6 +67,8 @@
   ],
 
   "keybindings": [
+    { "command": "scrollUpPage", "keys": "shift+pageup" },
+    { "command": "scrollDownPage", "keys": "shift+pagedown" },
     { "command": "find", "keys": "ctrl+shift+f" },
     {
       "command": {
