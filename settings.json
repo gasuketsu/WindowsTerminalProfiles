@@ -14,7 +14,8 @@
       "cursorShape": "filledBox",
       "colorScheme": "Gruvbox Dark",
       "useAcrylic": true,
-      "acrylicOpacity": 0.9
+      "acrylicOpacity": 0.9,
+      "bellStyle": "none"
     },
     "list": [
       {
