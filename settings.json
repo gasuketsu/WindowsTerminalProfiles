@@ -11,6 +11,7 @@
     "defaults": {
       "fontFace": "Sarasa Fixed J",
       "fontSize": 11,
+      "antialiasingMode": "cleartype",
       "cursorShape": "filledBox",
       "colorScheme": "Gruvbox Dark",
       "useAcrylic": true,
