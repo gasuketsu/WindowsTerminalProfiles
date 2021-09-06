@@ -1,38 +1,62 @@
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
-
-  "defaultProfile": "{b82bb978-27cf-4e90-a2e7-8d9a1f2d9bb6}",
-
-  "copyOnSelect": false,
-
   "copyFormatting": false,
-
-  "tabSwitcherMode": "inOrder",
-
-  "profiles": {
-    "defaults": {
-      "fontFace": "Sarasa Fixed J",
-      "fontSize": 11,
-      "antialiasingMode": "cleartype",
-      "cursorShape": "filledBox",
-      "colorScheme": "Gruvbox Dark",
+  "copyOnSelect": false,
+  "defaultProfile": "{b82bb978-27cf-4e90-a2e7-8d9a1f2d9bb6}",
+  "keybindings":
+  [
+    {
+      "command": "scrollUpPage",
+      "keys": "shift+pageup"
+    },
+    {
+      "command": "scrollDownPage",
+      "keys": "shift+pagedown"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "command":
+      {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "keys": "alt+shift+d"
+    }
+  ],
+  "profiles":
+  {
+    "defaults":
+    {
       "useAcrylic": true,
       "acrylicOpacity": 0.9,
-      "bellStyle": "none"
+      "bellStyle": "none",
+      "colorScheme": "Gruvbox Dark",
+      "cursorShape": "filledBox",
+      "font": {
+        "face": "PlemolJP Console NF",
+        "size": 12
+      },
+      "intenseTextStyle": "all",
+      "antialiasingMode": "cleartype"
     },
-    "list": [
+    "list":
+    [
       {
+        "commandline": "wsl.exe ~",
         "guid": "{b82bb978-27cf-4e90-a2e7-8d9a1f2d9bb6}",
         "hidden": false,
-        "name": "WSL",
-        "commandline": "wsl.exe ~",
-        "icon": "🐧"
+        "icon": "🐧",
+        "name": "WSL"
       },
       {
-        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-        "name": "Windows PowerShell",
         "commandline": "powershell.exe",
-        "hidden": false
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": false,
+        "name": "Windows PowerShell"
       },
       {
         "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -42,48 +66,30 @@
       }
     ]
   },
-
-  "schemes": [
+  "schemes":
+  [
     {
-      "name": "Gruvbox Dark",
-
       "background": "#282828",
-      "foreground": "#bdae93",
-      "cursorColor": "#fe8019",
-      "selectionBackground": "#a89984",
-
-      "black": "#3c3836",
-      "red": "#cc241d",
-      "green": "#98971a",
-      "yellow": "#d79921",
+      "black": "#3C3836",
       "blue": "#458588",
-      "purple": "#b16286",
-      "cyan": "#689d6a",
-      "white": "#ebdbb2",
       "brightBlack": "#504945",
-      "brightRed": "#fb4934",
-      "brightGreen": "#b8bb26",
-      "brightYellow": "#fabd2f",
-      "brightBlue": "#83a598",
-      "brightPurple": "#d3869b",
-      "brightCyan": "#8ec07c",
-      "brightWhite": "#fbf1c7"
-    }
-  ],
-
-  "keybindings": [
-    { "command": "scrollUpPage", "keys": "shift+pageup" },
-    { "command": "scrollDownPage", "keys": "shift+pagedown" },
-    { "command": "nextTab", "keys": "ctrl+pagedown" },
-    { "command": "prevTab", "keys": "ctrl+pageup" },
-    { "command": "find", "keys": "ctrl+shift+f" },
-    {
-      "command": {
-        "action": "splitPane",
-        "split": "auto",
-        "splitMode": "duplicate"
-      },
-      "keys": "alt+shift+d"
+      "brightBlue": "#83A598",
+      "brightCyan": "#8EC07C",
+      "brightGreen": "#B8BB26",
+      "brightPurple": "#D3869B",
+      "brightRed": "#FB4934",
+      "brightWhite": "#FBF1C7",
+      "brightYellow": "#FABD2F",
+      "cursorColor": "#FE8019",
+      "cyan": "#689D6A",
+      "foreground": "#BDAE93",
+      "green": "#98971A",
+      "name": "Gruvbox Dark",
+      "purple": "#B16286",
+      "red": "#CC241D",
+      "selectionBackground": "#A89984",
+      "white": "#EBDBB2",
+      "yellow": "#D79921"
     }
   ]
 }
