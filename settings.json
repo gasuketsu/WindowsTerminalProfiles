@@ -1,4 +1,5 @@
 {
+  "$help": "https://aka.ms/terminal-documentation",
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "copyFormatting": false,
   "copyOnSelect": false,
@@ -50,19 +51,22 @@
         "guid": "{b82bb978-27cf-4e90-a2e7-8d9a1f2d9bb6}",
         "hidden": false,
         "icon": "🐧",
-        "name": "WSL"
+        "name": "WSL",
+        "closeOnExit": "always"
       },
       {
         "commandline": "powershell.exe",
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
         "hidden": false,
-        "name": "Windows PowerShell"
+        "name": "Windows PowerShell",
+        "closeOnExit": "always"
       },
       {
         "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
         "hidden": true,
         "name": "Azure Cloud Shell",
-        "source": "Windows.Terminal.Azure"
+        "source": "Windows.Terminal.Azure",
+        "closeOnExit": "always"
       }
     ]
   },
