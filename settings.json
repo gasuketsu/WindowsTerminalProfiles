@@ -4,8 +4,7 @@
   "copyFormatting": false,
   "copyOnSelect": false,
   "defaultProfile": "{b82bb978-27cf-4e90-a2e7-8d9a1f2d9bb6}",
-  "keybindings":
-  [
+  "actions": [
     {
       "command": "scrollUpPage",
       "keys": "shift+pageup"
@@ -19,8 +18,7 @@
       "keys": "ctrl+shift+f"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
@@ -28,14 +26,12 @@
       "keys": "alt+shift+d"
     }
   ],
-  "profiles":
-  {
-    "defaults":
-    {
+  "profiles": {
+    "defaults": {
       "useAcrylic": true,
-      "acrylicOpacity": 0.9,
+      "opacity": 90,
       "bellStyle": "none",
-      "colorScheme": "Gruvbox Dark",
+      "colorScheme": "Gruvbox Dark Mix",
       "cursorShape": "filledBox",
       "font": {
         "face": "PlemolJP Console NF",
@@ -44,8 +40,7 @@
       "intenseTextStyle": "all",
       "antialiasingMode": "cleartype"
     },
-    "list":
-    [
+    "list": [
       {
         "commandline": "wsl.exe ~",
         "guid": "{b82bb978-27cf-4e90-a2e7-8d9a1f2d9bb6}",
@@ -70,30 +65,29 @@
       }
     ]
   },
-  "schemes":
-  [
+  "schemes": [
     {
-      "background": "#282828",
-      "black": "#3C3836",
+      "background": "#1d2021",
+      "black": "#504945",
       "blue": "#458588",
-      "brightBlack": "#504945",
-      "brightBlue": "#83A598",
-      "brightCyan": "#8EC07C",
-      "brightGreen": "#B8BB26",
-      "brightPurple": "#D3869B",
-      "brightRed": "#FB4934",
-      "brightWhite": "#FBF1C7",
-      "brightYellow": "#FABD2F",
-      "cursorColor": "#FE8019",
-      "cyan": "#689D6A",
-      "foreground": "#BDAE93",
-      "green": "#98971A",
-      "name": "Gruvbox Dark",
-      "purple": "#B16286",
-      "red": "#CC241D",
-      "selectionBackground": "#A89984",
-      "white": "#EBDBB2",
-      "yellow": "#D79921"
+      "brightBlack": "#665c54",
+      "brightBlue": "#83a598",
+      "brightCyan": "#8ec07c",
+      "brightGreen": "#b8bb26",
+      "brightPurple": "#d3869b",
+      "brightRed": "#f2594b",
+      "brightWhite": "#fbf1c7",
+      "brightYellow": "#fabd2f",
+      "cursorColor": "#fe8019",
+      "cyan": "#689d6a",
+      "foreground": "#bdae93",
+      "green": "#98971a",
+      "name": "Gruvbox Dark Mix",
+      "purple": "#b16286",
+      "red": "#db4740",
+      "selectionBackground": "#928374",
+      "white": "#ebdbb2",
+      "yellow": "#d79921"
     }
   ]
 }
