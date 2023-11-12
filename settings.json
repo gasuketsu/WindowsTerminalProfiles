@@ -31,10 +31,10 @@
       "useAcrylic": true,
       "opacity": 90,
       "bellStyle": "none",
-      "colorScheme": "Gruvbox Dark Mix",
+      "colorScheme": "KanagawaDragon",
       "cursorShape": "filledBox",
       "font": {
-        "face": "PlemolJP Console NF",
+        "face": "UDEV Gothic NF",
         "size": 12
       },
       "intenseTextStyle": "all",
@@ -88,6 +88,29 @@
       "selectionBackground": "#928374",
       "white": "#e5d5ad",
       "yellow": "#c69431"
+    },
+    {
+      "background": "#181616",
+      "black": "#181616",
+      "blue": "#4d699b",
+      "brightBlack": "#625e5a",
+      "brightBlue": "#7fb4ca",
+      "brightCyan": "#7aa89f",
+      "brightGreen": "#98bb6c",
+      "brightPurple": "#938aa9",
+      "brightRed": "#ff5d62",
+      "brightWhite": "#f2ecbc",
+      "brightYellow": "#e6c384",
+      "cursorColor": "#ffa066",
+      "cyan": "#6a9589",
+      "foreground": "#a7ac9c",
+      "green": "#98bb6c",
+      "name": "KanagawaDragon",
+      "purple": "#766b90",
+      "red": "#c34043",
+      "selectionBackground": "#2d4f67",
+      "white": "#dcd7ba",
+      "yellow": "#dca561"
     }
   ]
 }
