@@ -31,11 +31,12 @@
       "useAcrylic": true,
       "opacity": 90,
       "bellStyle": "none",
-      "colorScheme": "KanagawaDragon",
+      "colorScheme": "KanagawaWave",
       "cursorShape": "filledBox",
       "font": {
-        "face": "UDEV Gothic NF",
-        "size": 12
+        "face": "PlemoJP Console NF",
+        "size": 12,
+        "weight": 450
       },
       "intenseTextStyle": "all",
       "antialiasingMode": "cleartype"
@@ -111,6 +112,29 @@
       "selectionBackground": "#2d4f67",
       "white": "#dcd7ba",
       "yellow": "#dca561"
+    },
+    {
+      "background": "#1F1F28",
+      "black": "#181820",
+      "blue": "#4D699B",
+      "brightBlack": "#363646",
+      "brightBlue": "#7FB4CA",
+      "brightCyan": "#7AA89F",
+      "brightGreen": "#98BB6C",
+      "brightPurple": "#938AA9",
+      "brightRed": "#FF5D62",
+      "brightWhite": "#F2ECBC",
+      "brightYellow": "#E6C384",
+      "cursorColor": "#FFA066",
+      "cyan": "#6A9589",
+      "foreground": "#A7AC9C",
+      "green": "#6F894E",
+      "name": "KanagawaWave",
+      "purple": "#766B90",
+      "red": "#C34043",
+      "selectionBackground": "#2D4F67",
+      "white": "#DCD7BA",
+      "yellow": "#DCA561"
     }
   ]
 }
